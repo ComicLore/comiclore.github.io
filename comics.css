@@ -1,0 +1,73 @@
+ul{
+	list-style-type:none;
+	margin:0px 0px 20px 0px;
+	padding:0;
+	background:RGB(255,22,14,0.7);
+	overflow:hidden;
+}
+li{
+	float:left;
+}
+li a{
+	color:white;
+	display:block;
+	font-style:'Lato',sans-serif;
+	padding:16px 16px 16px 16px;
+	text-decoration:none;
+	font-size:20px;
+}
+li a:hover{
+	background:cyan;
+	color:crimson;
+	font-weight:400;
+	border-radius:10px;
+}
+.welcome .landing{
+	padding:15px 15px 15px 15px;
+	margin:20px auto auto auto;
+	width:90%;
+	height:50px;
+}
+
+.welcome{
+	margin:auto;
+	background:salmon;
+	width:97%;
+	height:500px;
+	overflow:auto;
+}
+.welcome .what-is-it{
+	width:50%;
+	margin:0 auto;
+
+}
+.dc_intro{
+	height:600px;
+	width:95%;
+	margin:20px auto;
+	background-color:aqua;
+}
+.marvel_intro{
+	height:600px;
+	width:95%;
+	margin:20px auto;
+	background:springgreen;
+}
+.anime_intro{
+	height:600px;
+	width:95%;
+	margin:20px auto;
+	background:orchid;
+}
+.other_intro{
+	height:600px;
+	width:95%;
+	margin:20px auto;
+	background:peru;
+}
+.credits{
+	margin:20px auto;
+	background:black;
+	height:200px;
+	width:95%;
+}
