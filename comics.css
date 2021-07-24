@@ -1,15 +1,18 @@
+body{
+	background-image:linear-gradient(rgba(255, 215, 15, 0.4),rgba(255, 215, 15, 0.4)),url("img/marvelvsdc.jpg");
+	background-attachment:fixed;
+}
 ul{
 	list-style-type:none;
 	margin:0px 0px 20px 0px;
 	padding:0;
-	background:RGB(255,22,14,0.7);
-	overflow:hidden;
+	overflow:auto;
 }
 li{
 	float:left;
 }
 li a{
-	color:white;
+	color:indigo;
 	display:block;
 	font-style:'Lato',sans-serif;
 	padding:16px 16px 16px 16px;
@@ -23,21 +26,47 @@ li a:hover{
 	border-radius:10px;
 }
 .welcome .landing{
-	padding:15px 15px 15px 15px;
+	padding:0;
 	margin:20px auto auto auto;
 	width:90%;
-	height:50px;
+	height:80px;
+	display:block;
+	text-align:center;
+	font-size:20px;
+}
+.welcome .what-is-it .finalcrisis{
+	display:inline;
+	position:relative;
+	text-align:left;
+	float:left;
+	width:300px;
+	height:415px;
+	margin:20px 20px 20px 20px;
+}
+.welcome .what-is-it .description{
+	float:left;
+	text-align:center;
+	display:inline;
+	width:40%;
+}
+.welcome .what-is-it .secretwars{
+	display:inline;
+	position:relative;
+	float:right;
+	width:300px;
+	height:415px;
+	margin:20px 20px 20px 20px;
 }
 
 .welcome{
 	margin:auto;
 	background:salmon;
 	width:97%;
-	height:500px;
+	height:600px;
 	overflow:auto;
 }
 .welcome .what-is-it{
-	width:50%;
+	width:93%;
 	margin:0 auto;
 
 }
@@ -68,6 +97,96 @@ li a:hover{
 .credits{
 	margin:20px auto;
 	background:black;
-	height:200px;
+	height:300px;
 	width:95%;
+}
+.welcome .landing{
+	font-family: Garamond,Baskerville,Baskerville Old Face,Hoefler Text,Times New Roman,serif; 
+
+}
+
+.welcome:hover{
+	transform:translateY(-5px);
+	  box-shadow: 5px 5px 4px 5px indianred;
+}
+.button1{
+	position:fixed;
+	padding:20px 20px 20px 20px;
+	margin:0 0 0 30px;
+	border-radius:50px;
+	text-decoration:none;
+	color:lime;
+}
+a:hover{
+	color:mediumorchid;
+	background:mistyrose;
+}
+a:link{
+	text-decoration:none;
+}
+.breaker{
+	width:auto;
+	height:5px;
+	background:silver;
+	margin:20px 0 0 0;
+}
+.name{
+	font-size:30px;
+	margin:20px 20px 10px 20px;
+	text-align:left;
+	padding:5px 5px 5px 5px;
+}
+.dc_intro .dc-desc{
+	font-family: Perpetua,Baskerville,Big Caslon,Palatino Linotype,Palatino,URW Palladio L,Nimbus Roman No9 L,serif; 
+	width:90%;
+	height:400px;
+	font-size:25px;
+	margin:auto;
+	
+}
+.marvel_intro .name{
+	text-align:right;
+}
+.marvel_intro .marvel-desc{
+	font-family: Gill Sans,Gill Sans MT,Calibri,sans-serif; 
+	width:90%;
+	height:400px;
+	font-size:25px;
+	margin:auto;
+	text-align:left;
+	
+}
+.anime_intro .anime-desc{
+	font-family: Geneva,Tahoma,Verdana,sans-serif; 
+	width:90%;
+	height:400px;
+	font-size:25px;
+	margin:auto;
+	text-align:right;
+}
+.other_intro .name{
+	text-align:right;
+}
+.other_intro .other-desc{
+	font-family: Courier New,Courier,Lucida Sans Typewriter,Lucida Typewriter,monospace; 
+	width:90%;
+	height:400px;
+	font-size:25px;
+	margin:auto;
+	text-align:left;
+	font-weight:700;
+}
+.credits .thanks{
+	color:white;
+	text-align:center;
+	margin:40px 20px 20px 20px;
+	padding:5px;
+}
+.credits .reach_out{
+	color:grey;
+	text-align:center;
+}
+.credits .logo_hyperlink{
+	margin:auto;
+	width:15%;
 }
